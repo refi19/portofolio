@@ -294,10 +294,14 @@ section .title::after{
     transition: all 0.3s ease;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
-.home .social-icons a:hover {
-    background: #6d6875;
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+.home .social-icons a.whatsapp:hover {
+    background: #25D366;
+}
+.home .social-icons a.linkedin:hover {
+    background: #0077B5;
+}
+.home .social-icons a.instagram:hover {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
 }
 .home .home-content a{
     display: flex;
